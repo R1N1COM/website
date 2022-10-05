@@ -1,0 +1,40 @@
+/* Add a black background color to the top navigation */
+.color-nav {
+  background-color: #2c2d36;
+}
+.navItem {
+  color: #c0c0c0;
+}
+.navbar-nav > .active > a {
+  background: #e25822;
+  color: #2c2d36;
+  text-decoration: underline;
+  text-decoration-color: #c0c0c0;
+  text-underline-offset: 10px;
+}
+
+mark {
+  background: #2f303a;
+  color: #e25822;
+}
+.t1 {
+  background: #2c2d36;
+  color: #e25822;
+  text-decoration: underline;
+  text-decoration-color: #c0c0c0;
+  text-underline-offset: 10px;
+}
+.t1:hover {
+  color: #c0c0c0;
+  text-decoration-color: #e25822;
+}
+.t2 {
+  background: #2c2d36;
+  color: #e25822;
+  font-size: 36px;
+  font-weight: bold;
+}
+.t2:hover {
+  color: #c0c0c0;
+  text-decoration-color: #e25822;
+}

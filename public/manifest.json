@@ -1,0 +1,41 @@
+{
+  "short_name": "R1N1",
+  "name": "Interaction & Followers | Content Writing | Digital Marketing | Website Designing | R1N1",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "description": "Interaction & Followers | Content Writing | Digital Marketing | Website Designing | R1N1",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 48x48 32x32 24x24 16x16",
+      "type": "image/x-icon",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "r1n1-192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "r1n1-340.png",
+      "type": "image/png",
+      "sizes": "340x340",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "r1n1-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "r1n1-800.png",
+      "type": "image/png",
+      "sizes": "800x800",
+      "purpose": "any maskable"
+    }
+  ]
+}

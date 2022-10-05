@@ -1,0 +1,8 @@
+mark {
+  background: #2f303a;
+  color: #e25822;
+}
+mark:hover {
+  color: #c0c0c0;
+  text-decoration-color: #e25822;
+}
