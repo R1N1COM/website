@@ -6,6 +6,10 @@ body {
   color: #c0c0c0;
 }
 
+.navbar-toggler-icon {
+  background-image: url('./assets/list.svg') !important;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
