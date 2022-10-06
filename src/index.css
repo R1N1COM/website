@@ -30,9 +30,13 @@ h1 {
   animation: fadeRightMini 1s;
   animation-fill-mode: both;
 }
-.img {
-  width: 50px;
-  height: 25px;
+
+a svg:hover #telephone,
+a svg:hover #facebook,
+a svg:hover #whatsapp,
+a svg:hover #twitter,
+a svg:hover #instagram {
+  fill: #e25822;
 }
 .btn {
   background-color: #e25822;
