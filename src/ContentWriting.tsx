@@ -11,25 +11,26 @@ export const ContentWriting = () => (
           <h2>Content Writing Service</h2>
           <p>
             Even though we've expanded into every facet of content marketing
-            strategy, r1n1's professional content writing services remain its
-            base.
+            strategy, <span className="fire">r1n1</span>'s professional content
+            writing services remain its base.
           </p>
           <p>
-            r1n1 ensures you can count on great copywriting that speaks to your
-            target audience and drives commercial results. And meets your
-            deadlines by combining industry-focused content writers who excel at
-            nailing tone, style, and subject matter with experienced content
-            marketing strategists and project managers.
+            <span className="fire">r1n1</span> ensures you can count on great
+            copywriting that speaks to your target audience and drives
+            commercial results. And meets your deadlines by combining
+            industry-focused content writers who excel at nailing tone, style,
+            and subject matter with experienced content marketing strategists
+            and project managers.
           </p>
           <h3>What's Included in the Package</h3>
           <p>
-            We can provide any form of content writing service you can think of.
-            r1n1 online content writing services cover blog posts, social media
-            material, email copy, landing page copy, website content, and
-            eBooks. We write top-of-sales-funnel articles to raise brand
-            recognition and enhance search engine exposure. And mid-funnel
-            assets to nurture leads and bottom-of-funnel content to convert
-            leads to customers.
+            We can provide any form of content writing service you can think of{' '}
+            <span className="fire">r1n1</span> online content writing services
+            cover blog posts, social media material, email copy, landing page
+            copy, website content, and eBooks. We write top-of-sales-funnel
+            articles to raise brand recognition and enhance search engine
+            exposure. And mid-funnel assets to nurture leads and
+            bottom-of-funnel content to convert leads to customers.
           </p>
           <p>
             We're a genuine marketing company. That means we take the time and
@@ -40,7 +41,10 @@ export const ContentWriting = () => (
           </p>
         </div>
         <div className="column fadeRightMini">
-          <h4>Why Should You Contract Writing to r1n1</h4>
+          <h4>
+            Why Should You Contract Writing to{' '}
+            <span className="fire">r1n1</span>
+          </h4>
           <p>Every industry and niche has content writers.</p>
           <p>
             We have copywriters who specialize in various fields, so whether you
@@ -54,14 +58,16 @@ export const ContentWriting = () => (
             larger audience. Unfortunately, not all copywriters are SEO-savvy,
             which means you might be missing out on hundreds. On the other hand,
             our skilled copywriters know how to optimize content so that you may
-            generate more visitors to your website with r1n1.
+            generate more visitors to your website with{' '}
+            <span className="fire">r1n1</span>.
           </p>
           <h6>Copywriting of high quality and fast delivery</h6>
           <p>
             Are you in a rush to have your new website up and running? We
-            understand the value of your time, so no worries. r1n1's staff of
-            writers, editors and SEO experts work tirelessly to meet your
-            deadlines with excellent text.
+            understand the value of your time, so no worries.{' '}
+            <span className="fire">r1n1</span>'s staff of writers, editors and
+            SEO experts work tirelessly to meet your deadlines with excellent
+            text.
           </p>
           <button
             className="button is-pulled-right btn"

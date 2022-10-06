@@ -17,8 +17,8 @@ export const InteractionFollowers = () => (
             presence. And build a secure and robust foundation. We operate in
             complete honesty to provide you with actual user engagement at
             affordable pricing! When it comes to boosting your Instagram,
-            Facebook, Twitter, LinkedIn, YouTube, and TikTok accounts, r1n1 is
-            the place to go.
+            Facebook, Twitter, LinkedIn, YouTube, and TikTok accounts,{' '}
+            <span className="fire">r1n1</span> is the place to go.
           </p>
           <p>
             Social media is a crucial component of our lives, not just for fun
@@ -39,10 +39,12 @@ export const InteractionFollowers = () => (
           </p>
         </div>
         <div className="column fadeRightMini">
-          <h3>Reasons to go with r1n1</h3>
+          <h3>
+            Reasons to go with <span className="fire">r1n1</span>
+          </h3>
           <p>
-            These characteristics set our r1n1 distinct from other social media
-            promotion companies:
+            These characteristics set our <span className="fire">r1n1</span>{' '}
+            distinct from other social media promotion companies:
           </p>
           <h4>Social media marketing strategies</h4>
           <p>
@@ -61,14 +63,15 @@ export const InteractionFollowers = () => (
           </p>
           <h6>Effective community management</h6>
           <p>
-            Excellent content, according to r1n1, cannot stand on its own
-            without community support. So, purchase Instagram bots and active
-            Instagram followers from us for greater engagement.
+            Excellent content, according to <span className="fire">r1n1</span>,
+            cannot stand on its own without community support. So, purchase
+            Instagram bots and active Instagram followers from us for greater
+            engagement.
           </p>
           <h6>Faster delivery and faster results</h6>
           <p>
-            r1n1 provides speedy social media promotion services and ensures
-            that you get the exposure you need.
+            <span className="fire">r1n1</span> provides speedy social media
+            promotion services and ensures that you get the exposure you need.
           </p>
           <button
             className="button is-pulled-right btn"

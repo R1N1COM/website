@@ -38,6 +38,13 @@ a svg:hover #twitter,
 a svg:hover #instagram {
   fill: #e25822;
 }
+.fire {
+  color: #e25822;
+  font-weight: bold;
+}
+.fire:hover {
+  color: #c0c0c0;
+}
 .btn {
   background-color: #e25822;
   border: none;

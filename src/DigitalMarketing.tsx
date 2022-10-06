@@ -14,10 +14,10 @@ export const DigitalMarketing = () => (
             Sales
           </p>
           <p>
-            The digital marketing services provided by r1n1 were created with
-            the needs of expanding enterprises in mind. Everything we do, from
-            pricing to delivering our services, is personalized to your
-            company's needs.
+            The digital marketing services provided by{' '}
+            <span className="fire">r1n1</span> were created with the needs of
+            expanding enterprises in mind. Everything we do, from pricing to
+            delivering our services, is personalized to your company's needs.
           </p>
           <p>
             Many companies boast about their work with Fortune 500 corporations
@@ -55,20 +55,20 @@ export const DigitalMarketing = () => (
             You set your business up for success when you have a precise plan,
             aim, and target audience. However, the most crucial aspect of
             achieving this achievement is utilizing the appropriate tools, such
-            as those provided by r1n1.
+            as those provided by <span className="fire">r1n1</span>.
           </p>
           <h4>We're a low-cost digital marketing company.</h4>
           <p>
             Digital marketing businesses frequently charge exorbitant fees for
             their services. Even if they only provide one or two digital
-            marketing services, they are likely pricey. However, while r1n1
-            provides all digital marketing services, our services remain a
-            cost-effective option for small firms needing assistance. We
-            understand the constraints of a small business owner's budget. We
-            are eager to work with them to provide the digital marketing
-            services they require. After all, one of the key ways we strive to
-            uphold that purpose is by making our services low enough to fit into
-            any small business's budget.
+            marketing services, they are likely pricey. However, while{' '}
+            <span className="fire">r1n1</span> provides all digital marketing
+            services, our services remain a cost-effective option for small
+            firms needing assistance. We understand the constraints of a small
+            business owner's budget. We are eager to work with them to provide
+            the digital marketing services they require. After all, one of the
+            key ways we strive to uphold that purpose is by making our services
+            low enough to fit into any small business's budget.
           </p>
           <button
             className="button is-pulled-right btn"

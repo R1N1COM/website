@@ -10,7 +10,7 @@ export const AboutUs = () => (
       <div className="columns">
         <div className="column fadeLeftMini">
           <h2>
-            It's <mark>r1n1</mark>
+            It's <span className="fire">r1n1</span>
           </h2>
           <p>
             What happens when a group of business zooms gets their hands on some

@@ -33,16 +33,16 @@ export const Home = () => (
             <p>Content Writing Service</p>
             <p>
               Even though we've expanded into every facet of content marketing
-              strategy, r1n1's professional content writing services remain its
-              base.
+              strategy, <span className="fire">r1n1</span>'s professional
+              content writing services remain its base.
             </p>
           </div>
         </div>
 
         <div className="column fadeRightMini">
           <h2>
-            All your need about
-            <mark>Social Media</mark>
+            All your need about <br />
+            <span className="fire">Social Media</span>
           </h2>
           <p>Before getting to the start, Let's get to know each other well.</p>
 

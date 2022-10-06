@@ -42,12 +42,12 @@ export const WebsiteDesigning = () => (
         <div className="column fadeRightMini">
           <h3>What Is Our Design Process</h3>
           <p>
-            r1n1 website design services may assist you in striking the right
-            balance and creating a website that is the focal point of your
-            online presence. Our web design and development team employ the most
-            up-to-date search engine optimization (SEO) and user experience (UX)
-            best practices to create mockups. and websites specific to any
-            business or industry.
+            <span className="fire">r1n1</span> website design services may
+            assist you in striking the right balance and creating a website that
+            is the focal point of your online presence. Our web design and
+            development team employ the most up-to-date search engine
+            optimization (SEO) and user experience (UX) best practices to create
+            mockups. and websites specific to any business or industry.
           </p>
           <p>
             We have the in-house experience to tailor our professional web

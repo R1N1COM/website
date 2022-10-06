@@ -6,7 +6,7 @@ export const Footer = () => (
       <div className="columns has-text-centered is-vcentered">
         <div className="column has-text-left-desktop-only">
           <p>
-            <mark>r1n1</mark>- Hic et ubique terrarum - ©{' '}
+            <span className="fire">r1n1</span> - Hic et ubique terrarum - ©{' '}
             {new Date().getFullYear()} | R1N1 LTD | UK
           </p>
         </div>
