@@ -1,4 +1,4 @@
-# R1N1 LTD aka r1n1
+# R1N1 LTD aka r1n1 (Dev.)
 
 ## All your need about Social Media
 
