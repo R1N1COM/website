@@ -13,7 +13,9 @@ import { DigitalPriceList } from './DigitalPriceList'
 import { ContentWriting } from './ContentWriting'
 import { ContentPriceList } from './ContentPriceList'
 import { AboutUs } from './AboutUs'
+import { NoMatch } from './NoMatch'
 
+// <Route path="*" element={<Navigate to="/" />} />
 class App extends Component {
   render() {
     return (
@@ -38,6 +40,7 @@ class App extends Component {
             <Route path="/ContentWriting" element={<ContentWriting />} />
             <Route path="/ContentPriceList" element={<ContentPriceList />} />
             <Route path="/AboutUs" element={<AboutUs />} />
+            <Route path="*" element={<NoMatch />} />
           </Routes>
           <Footer />
         </Router>

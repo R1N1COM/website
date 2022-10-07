@@ -8,6 +8,7 @@ import phone from './phone.svg'
 import youtube from './youtube.svg'
 import details from './details.svg'
 import list from './list.svg'
+import tolkien from './tolkien.svg'
 
 // eslint-disable-next-line
 export default {
@@ -21,4 +22,5 @@ export default {
   youtube,
   details,
   list,
+  tolkien,
 }
