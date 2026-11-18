@@ -1,33 +1,15 @@
-# R1N1 LTD aka r1n1 (Dev.)
+# r1n1.com
 
-## All your need about Social Media
+Website for R1N1 LTD: automation and private AI for companies, proven on buyX and MMCC® | Mobile Mint Car Care.
 
-> We have well-designed packages for your needs in the digital world.
+Next.js (App Router). `npm install`, then `npm run dev`.
 
-- **Interaction & Followers**
+## Environment variables (set in Vercel)
 
-> Give your social media a boost and take it to the next level. All of the social media promotion services you'll ever need - at one good place This is where social media success starts.
+| Name | Purpose |
+| --- | --- |
+| `NEXT_PUBLIC_BOOKING_URL` | Booking page for "Book a call". Unset: the buttons jump to the contact form. |
+| `CONTACT_WEBHOOK_URL` | Where contact-form messages are POSTed as JSON (for example an n8n webhook). Unset: the form tells visitors to email info@r1n1.com. |
+| `CONTACT_WEBHOOK_SECRET` | Optional. Sent as the `X-R1N1-Secret` header so the webhook can reject anything else. |
 
-- **Content Writing Services**
-
-> Even though we've expanded into every facet of content marketing strategy, r1n1's professional content writing services remain its base.
-
-- **Digital Marketing Services**
-
-> Everything we do, from pricing to delivering our services, is personalized to your company's needs.
-
-- **Website Designing Services**
-
-> Your website's design conveys a lot about your brand's success. Make a strong first impression on your visitors with a custom website designed by SEO, web development, and graphic design specialists.
-
-- **About Us**
-
-**It's r1n1!**
-
-> What happens when a group of business zooms gets their hands on some killer data
-
-Our objective is to help businesses flourish by offering organizations worldwide the most effective, innovative, and scalable content marketing services and technology solutions.
-
-```
-Hic et ubique terrarum
-```
+The old site was an offline-cached app. `public/service-worker.js` and `ServiceWorkerCleanup` remove its worker and caches from returning visitors' browsers; old page paths redirect to `/`.
