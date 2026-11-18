@@ -25,7 +25,7 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: '#14202B',
+  themeColor: '#0c1824',
 };
 
 const orgJsonLd = {
@@ -43,7 +43,6 @@ const orgJsonLd = {
     postalCode: 'KT8 2HX',
     addressCountry: 'GB',
   },
-  brand: [{ '@type': 'Brand', name: 'MMCC® | Mobile Mint Car Care', url: 'https://mobilemintcarcare.com' }],
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
