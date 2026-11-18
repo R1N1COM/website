@@ -1,4 +1,6 @@
-import { Day } from './components/Day';
+import { DayKey, DaySvg } from './components/Day';
+import { HeroDay } from './components/three/HeroDay';
+import { Unplug } from './components/three/Unplug';
 import { ContactForm } from './components/ContactForm';
 import { BOOKING_URL } from './lib/site';
 
@@ -7,20 +9,27 @@ export default function Home() {
     <>
       <section className="hero">
         <div className="wrap">
-          <h1>We build businesses that run themselves.</h1>
-          <p className="lede">
-            The system does the routine work, watches itself, and brings people only the exceptions.
-            We built two businesses this way. This is one ordinary day across both of them.
-          </p>
-          <Day />
-          <div className="hero-actions">
-            <a className="btn" href={BOOKING_URL ?? '#contact'}>
-              Book a call
-            </a>
-            <a className="link" href="#businesses">
-              See the two businesses
-            </a>
+          <div className="hero-grid">
+            <div className="hero-copy">
+              <h1>We build businesses that run themselves.</h1>
+              <p className="lede">
+                The system does the routine work, watches itself, and brings people only the
+                exceptions. We built two businesses this way. This is their day.
+              </p>
+              <div className="hero-actions">
+                <a className="btn" href={BOOKING_URL ?? '#contact'}>
+                  Book a call
+                </a>
+                <a className="link" href="#businesses">
+                  See the two businesses
+                </a>
+              </div>
+            </div>
+            <div className="hero-visual">
+              <HeroDay fallback={<DaySvg />} />
+            </div>
           </div>
+          <DayKey />
         </div>
       </section>
 
@@ -33,6 +42,7 @@ export default function Home() {
               the whole system runs on a dedicated machine with its own AI model, and it works with
               the internet unplugged.
             </p>
+            <Unplug />
           </div>
           <dl className="facts">
             <div>

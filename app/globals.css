@@ -187,7 +187,81 @@ a:hover {
   margin-top: 2.5rem;
 }
 
-/* The day ruler */
+/* Hero layout with the 3D day */
+.hero-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+  gap: 2rem;
+  align-items: center;
+}
+.hero-copy h1 {
+  max-width: 12ch;
+}
+.hero-stage {
+  position: relative;
+}
+.stage-3d {
+  position: relative;
+  width: 100%;
+}
+.stage-ring {
+  aspect-ratio: 1.1 / 1;
+}
+.three-canvas {
+  position: absolute !important;
+  inset: 0;
+  touch-action: pan-y;
+}
+.stage-readout {
+  margin-top: 0.25rem;
+  font-size: 0.98rem;
+  color: var(--steel);
+  max-width: 34rem;
+  min-height: 3.2em;
+}
+.stage-readout b {
+  color: var(--ink);
+  font-variant-numeric: tabular-nums;
+}
+.readout-time {
+  color: var(--ink);
+  font-weight: 600;
+}
+.hero-grid + .day-key {
+  margin-top: clamp(2rem, 5vw, 3.5rem);
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--rule);
+}
+
+/* Unplug: the private server */
+.unplug {
+  margin-top: 2.5rem;
+}
+.stage-server {
+  aspect-ratio: 4 / 3;
+  border-radius: var(--radius);
+  background: radial-gradient(ellipse at 50% 60%, #1d3042 0%, var(--ink) 70%);
+}
+.unplug-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-top: 1rem;
+  font-weight: 600;
+  color: var(--paper);
+}
+.unplug-dot {
+  width: 0.65rem;
+  height: 0.65rem;
+  border-radius: 50%;
+  background: var(--signal);
+}
+.unplug-status.is-off .unplug-dot {
+  background: #3fd1c2;
+  box-shadow: 0 0 0 4px rgba(63, 209, 194, 0.18);
+}
+
+/* The day ruler (fallback without WebGL) */
 .day {
   margin: clamp(2.5rem, 6vw, 4rem) 0 0;
   padding: clamp(1.25rem, 3vw, 2rem);
@@ -248,8 +322,7 @@ a:hover {
   margin-bottom: 0.6rem;
 }
 .key-tick {
-  background: repeating-linear-gradient(90deg, var(--ink) 0 1px, transparent 1px 4px);
-  opacity: 0.6;
+  background: repeating-linear-gradient(90deg, var(--teal) 0 2px, transparent 2px 5px);
 }
 .key-morning {
   background: var(--teal-soft);
@@ -662,6 +735,15 @@ a:hover {
   .day-key {
     grid-template-columns: 1fr;
     gap: 1rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .hero-grid {
+    grid-template-columns: 1fr;
+  }
+  .stage-ring {
+    margin: 0 -0.5rem;
   }
 }
 

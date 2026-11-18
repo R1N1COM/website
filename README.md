@@ -2,7 +2,14 @@
 
 Website for R1N1 LTD: automation and private AI for companies, proven on buyX and MMCC® | Mobile Mint Car Care.
 
-Next.js (App Router). `npm install`, then `npm run dev`.
+Next.js (App Router) with three.js via React Three Fiber. `npm install`, then `npm run dev`.
+
+## 3D
+
+- `app/components/three/DayRing.tsx`: the hero. A 24-hour ring of buyX's 288 health checks, MMCC's 08:00/13:00/18:00 YouTube releases and the morning band, set to the current London time.
+- `app/components/three/ServerScene.tsx`: the private server in "Your data stays with you". Scrolling pulls the network cable; the lights keep running.
+- Both pause when off screen, hold still for visitors who prefer reduced motion, and fall back to the flat SVG ruler when WebGL is unavailable.
+- Custom models (for example from Scenario's Blender plugin) go in `public/models/` as `.glb` and load with drei's `useGLTF`.
 
 ## Environment variables (set in Vercel)
 

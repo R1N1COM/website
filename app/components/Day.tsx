@@ -9,10 +9,10 @@ const x = (hour: number) => X0 + ((X1 - X0) * hour) / 24;
 
 const PUBLISH = [8, 13, 18];
 
-export function Day() {
+export function DaySvg() {
   const ticks = Array.from({ length: 288 }, (_, i) => i);
   return (
-    <figure className="day">
+    <div className="day">
       <svg
         viewBox={`0 0 ${W} ${H}`}
         className="day-svg"
@@ -58,8 +58,13 @@ export function Day() {
           </text>
         ))}
       </svg>
+    </div>
+  );
+}
 
-      <figcaption className="day-key">
+export function DayKey() {
+  return (
+      <div className="day-key">
         <p>
           <span className="key key-tick" aria-hidden="true" />
           <strong>288 health checks.</strong> buyX checks itself every five minutes. Two failures in a
@@ -75,7 +80,6 @@ export function Day() {
           <strong>08:00, 13:00, 18:00.</strong> Each MMCC job video is republished on YouTube with
           freshly written titles and descriptions.
         </p>
-      </figcaption>
-    </figure>
+      </div>
   );
 }
