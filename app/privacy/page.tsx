@@ -33,8 +33,8 @@ export default function Privacy() {
 
         <h2>Where it goes</h2>
         <p>
-          Form messages pass through our website host and into our own automation, which runs on
-          servers under our control. We do not sell your details or share them for marketing.
+          Form messages pass through our website host and are emailed to our inbox by our email
+          delivery provider, Resend. We do not sell your details or share them for marketing.
         </p>
 
         <h2>How long we keep it</h2>

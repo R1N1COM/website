@@ -15,12 +15,16 @@ One full-screen three.js world (`app/components/three/World.tsx`) sits behind th
 
 It pauses when you scroll past the story or the tab is hidden, holds still for reduced-motion visitors and is skipped without WebGL. Custom models (for example from Scenario's Blender plugin) can go in `public/models/` as `.glb` and load with drei's `useGLTF`.
 
-## Environment variables (set in Vercel)
+## Environment variables
+
+Locally these live in `.env.local` (git-ignored). In production, set them in the Vercel project.
 
 | Name | Purpose |
 | --- | --- |
+| `RESEND_API_KEY` | Required for the contact form. Messages are emailed through Resend from the verified r1n1.com domain. |
+| `CONTACT_TO` | Inbox for enquiries. Default `info@r1n1.com`. |
+| `CONTACT_FROM` | Sender. Default `R1N1 website <website@r1n1.com>`. |
 | `NEXT_PUBLIC_BOOKING_URL` | Booking page for "Book a call". Unset: the buttons jump to the contact form. |
-| `CONTACT_WEBHOOK_URL` | Where contact-form messages are POSTed as JSON (for example an n8n webhook). Unset: the form tells visitors to email info@r1n1.com. |
-| `CONTACT_WEBHOOK_SECRET` | Optional. Sent as the `X-R1N1-Secret` header so the webhook can reject anything else. |
+| `CONTACT_WEBHOOK_URL` / `CONTACT_WEBHOOK_SECRET` | Optional JSON copy of each enquiry (for example to n8n). |
 
 The old site was an offline-cached app. `public/service-worker.js` and `ServiceWorkerCleanup` remove its worker and caches from returning visitors' browsers; old page paths redirect to `/`.
